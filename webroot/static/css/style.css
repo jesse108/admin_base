@@ -1,1 +1,60 @@
-﻿
+﻿.form-login{
+	margin:0 auto;
+	padding:15px;
+	max-width:330px;
+}
+
+.form-login h2{
+	font-weight: 600;
+}
+
+.login_input{
+	/*margin:5px;*/
+	padding:10px;
+	font-size:16px;	
+	height:auto;
+}
+
+.login_checkbox{
+	margin:10px 0;
+}
+
+.login_checkbox label{
+	font-weight:400;
+}
+
+.admin_top{
+	padding: 10px;
+	background-color: #E8E8E8;
+}
+
+.top_title{
+	padding-left:30px; 
+}
+
+.top_title a{
+	font-size: x-large;
+}
+
+.top_title a:hover{
+	text-decoration:none;
+}
+
+.top_last{
+	position: relative;
+	margin-right: 60px;
+	top:10px;
+}
+
+.main_left{
+	min-height: 600px;
+	background-color: #f5f5f5;
+}
+
+.bottom_bar{
+
+}
+
+.main_right{
+	min-height: 550px;
+}

@@ -1,0 +1,18 @@
+{if $error = System::GetError()}
+<div class="alert alert-dismissible alert-danger message">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	{$error}
+</div>
+{/if}
+
+{if $notice = System::GetNotice()}
+<div class="alert alert-dismissible alert-success message">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	{$notice}
+</div>
+{/if}
+
